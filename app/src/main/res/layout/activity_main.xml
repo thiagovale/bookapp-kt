@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register User" />
+
+    <Button
+        android:id="@+id/btnRegisterBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Book" />
+
+    <Button
+        android:id="@+id/btnViewBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Books" />
+</LinearLayout>
